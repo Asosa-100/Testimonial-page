@@ -1,0 +1,156 @@
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Moderate violet: hsl(263, 55%, 52%)
+Very dark grayish blue: hsl(217, 19%, 35%)
+Very dark blackish blue: hsl(219, 29%, 14%)
+White: hsl(0, 0%, 100%)
+
+### Neutral
+
+Light gray: hsl(0, 0%, 81%)
+Light grayish blue: hsl(210, 46%, 95%)
+
+Note for text colors:
+
+1. "Verified Graduate" has the same color as the person's name with 50% opacity
+2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
+
+## Typography
+
+### Body Copy
+
+- Font size: 13px
+
+### Font
+
+- Family: [Barlow Semi Condensed](https://fonts.google.com/specimen/Barlow+Semi+Condensed)
+- Weights: 500, 600 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* html {
+    font-size: 62.5%;
+} */
+
+body {
+    background-image: url('images/gradient-7258997_1280.webp');
+    background-size: cover;
+    
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 10rem 10rem ;
+    /* grid-row-gap:10px; */
+   /* grid-gap: 5rem; */
+   font-family: 'poppins',sans-serif;
+   line-height: 1.3rem;
+}
+
+section {
+    background-color: rgb(3, 117, 117);
+    margin-top: 4rem;
+    border-radius: 1.1rem;
+    opacity: 0.8;
+}
+
+.s1 {
+    width: 37rem;
+    height: 19rem;
+    background-color:  rgb(67, 20, 129);
+    color: white;
+}
+
+.s2 {
+    width: 17rem;
+    height: 19rem;
+    margin-left: 28rem;
+    margin-bottom: 1rem;
+    background-color:  hsl(217, 19%, 35%);
+    color: white;
+}
+
+.s3 {
+    width: 14rem;
+    margin-top: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.s4 {
+    width: 39rem;
+    margin-left: 6rem;
+    margin-top: 0;
+    background-color:  hsl(219, 29%, 14%);
+    color: white;
+}
+
+.content {
+    margin: 1rem 1rem;
+    
+}
+
+/* .content1 {
+    width: 100px;
+} */
+
+section .d {
+    margin-left: 3rem;
+
+}
+
+section .d img {
+    border-radius: 100%;
+    outline: rgb(228, 226, 226) 2px solid;
+    width: 30px;
+    position: relative;
+    top: 35px;
+    right: 45px;
+}
+
+h2 {
+    font-size: 0.8rem;
+}
+
+.pm {
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+.paragraph {
+    margin-top: 1rem;
+    /* opacity: 0.9; */
+
+}
+
+.bold-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.sm {
+    font-size: 0.8rem;
+}
+
+.container .s5 {
+    /* grid-row: 1;
+    grid-column: 3; */
+    background-color:  hsl(0, 0%, 100%);
+    position: absolute;
+    width: 15.5rem;
+    left: 68.5rem;
+}
