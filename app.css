@@ -146,11 +146,18 @@ h2 {
     font-size: 0.8rem;
 }
 
-.container .s5 {
+.s5 {
+        background-color:  hsl(0, 0%, 100%);
+        margin-left: 20rem;
+}
+
+.container .s5 .content {
     /* grid-row: 1;
     grid-column: 3; */
     background-color:  hsl(0, 0%, 100%);
     position: absolute;
     width: 15.5rem;
     left: 68.5rem;
+    bottom: 25rem;
+
 }
